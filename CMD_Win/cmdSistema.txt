@@ -1,0 +1,112 @@
+Comandos CMD utiles para el Sistema
+-----------------------------------
+
+Comando CMD	Descripción	Versión de Windows
+
+at	        Permite iniciar comandos y programas en una fecha concreta. Con el parámetro /every:fecha[,…] pueden establecerse citas regularmente.	10/8/7/Vista/XP
+auditpol	  Muestra directrices de monitorización actuales.	10/8/7/Vista
+backup	    Crea copias de seguridad de archivos que pueden restablecerse con restore. Este comando ha sido reemplazado por msbackup.	DOS
+bcdboot	    Crea y repara archivos de inicio.	10/8/7
+bcdedit	    Permite que los usuarios realicen cambios en la configuración de arranque y es una nueva variante de bootcfg.	10/8/7/Vista
+bdehdcfg	  Prepara un disco duro para el cifrado de disco con BitLocker.	10/8/7
+bootcfg	    Crea, edita o muestra el contenido de boot.ini (desde Windows 7 está incluido en CMD, pero ha perdido su función, puesto que boot.ini ya no se utiliza para las opciones de inicio, sino que debe recurrirse a bcdedit).	10/8/7/Vista/XP
+bootsect	  Adapta el código de inicio maestro (Master Boot Code) de manera que sea compatible con el Windows Boot Manager o con el NT Loader. Solo puede iniciarse en Windows 7 y Vista a través de la recuperación del sistema.	10/8/7/Vista
+cacls	      Edita y muestra la lista de control de acceso (Acces Control List, ACL), que establece los derechos de acceso. Este comando está obsoleto, por lo que en las nuevas versiones de Windows se sustituye por icacls.	10/8/7/Vista/XP
+chkdsk	    Revisa y repara (con el parámetro /R) un soporte de datos.	Cualquier Win/DOS
+chkntfs	    Modifica o muestra la comprobación del soporte informático en el inicio.	10/8/7/Vista/XP
+cmdkey	    Es capaz de mostrar (/list), crear (/add) y eliminar (/delete) datos de registro.	10/8/7/Vista
+convert	    Convierte particiones de FAT/FAT32 en NTFS.	10/8/7/Vista/XP
+ctty	      Modifica la entrada y salida estándares para el sistema.	98/95/DOS
+dblspace	  Crea o configura unidades comprimidas. Hay una versión más actual del comando que se llama drvspace.	98/95/DOS
+defrag	    Desfragmenta todas las unidades o algunas específicas. Para monitorizar el progreso debe utilizarse /U y para visualizar estadísticas de evaluación tras la desfragmentación se ha de recurrir al parámetro /V.	Cualquier Win/DOS
+diskpart	  Gestiona, crea y elimina particiones en los discos duros.	10/8/7/Vista/XP
+diskperf	  Permite que los usuarios controlen el Disk Performance Counter a distancia.	10/8/7/Vista
+diskraid	  Gestiona sistemas RAID.	10/8/7/Vista
+dism	      Revisa imágenes de Windows y las integra.	10/8/7
+dispdiag	  Crea un archivo en el directorio actual en el que pueden encontrarse datos sobre la pantalla.	10/8/7/Vista
+dosx	      Inicia la interfaz de modo protegido para DOS (DOS Protected Mode Interface) en la que se permiten programas MS-DOS con más de 640 KB de memoria. Solo está disponible para soportar programas de DOS más antiguos.	32 bits
+driverquery	Crea una lista con todos los controladores de dispositivos instalados.	10/8/7/Vista/XP
+drvspace	  Crea o configura unidades comprimidas. Existe una versión más antigua del comando llamada dblspace.	98/95/DOS
+emm386	    Le otorga a DOS más de 640 KB de almacenamiento.	98/95/DOS
+esentutl	  Gestiona bases de datos en el Extensible Storage Engine.	10/8/7/Vista/XP
+eventcreate	Crea una entrada (identificador y mensaje) en un registro de eventos.	10/8/7/Vista/XP
+eventtriggers	Configura y muestra el event trigger (desencadenador de eventos).	XP
+fdisk	      Crea, elimina y gestiona particiones en el disco duro. En las versiones de Windows más actuales se usa diskpart.	98/95/DOS
+fltmc	      Posibilita que los usuarios gestionen y visualicen controladores de filtros.	10/8/7/Vista/XP
+fondue	    Instala características de Windows adicionales. El comando es la abreviatura para la herramienta subyacente Features on Demand User Experience Tool.	10/8
+format	    Formatea una unidad en el sistema de archivos especificado por el usuario.	Cualquier Win/DOS
+fsutil	    Cuenta con numerosas funciones que afectan al sistema de archivos como, por ejemplo, la eliminación de unidades.	10/8/7/Vista/XP
+hwrcomp	    Compila diccionarios de creación propia para el reconocimiento de escritura a mano.	10/8/7
+hwrreg	    Instala un diccionario compilado para el reconocimiento de escritura a mano.	10/8/7
+icacls	    Edita y muestra la lista de control de acceso, que define los derechos de acceso.	Una versión más antigua de este comando es cacls.10/8/7/Vista
+ktmutil	    Inicia el Kernel Transaction Manager.	10/8/7/Vista
+label	      Modifica o elimina el nombre de una unidad.	Cualquier Win/DOS
+lh	        Carga un programa determinado en el área de memoria superior (UMB) y tiene la misma función que loadhigh.	98/95/DOS
+licensingdiag	Genera un archivo XML y uno CAB que contienen información sobre la licencia de producto de Windows.	10/8
+loadfix	    Garantiza que se cargue y se ejecute un programa por encima de los primeros 64 KB de memoria.	32 bits/DOS
+loadhigh	  Tiene la misma función que lh.	98/95/DOS
+lock	      Bloquea una unidad de modo que un solo programa previamente seleccionado por el usuario pueda acceder a esta.	98/95
+lodctr	    Actualiza todas las entradas del registro que tengan que ver con indicadores de rendimiento.	Cualquier Win
+logman	    Crea y gestiona sesiones de seguimiento de eventos y registros de rendimiento.	10/8/7/Vista/XP
+manage-bde	Configura el cifrado de unidades con BitLocker. Con -on se cifran unidades y con -off vuelven a descifrarse poniendo fin, además, a la protección con Bitlocker.	10/8/7
+mem	Muestra información sobre la memoria e indica qué programas se han cargado en esta.	32 bits/DOS
+memmaker	  Optimiza la memoria.	98/95/DOS
+mode	      Configura dispositivos de sistema, sobre todo en puertos COM o LPT.	Cualquier Win/DOS
+mofcomp	    Analiza archivos en Managed Object Format (MOF) y añade las clases y las instancias para el repositorio WMI.	Cualquier Win
+mountvol	  Crea, elimina y muestra puntos de montaje para unidades.	10/8/7/Vista/XP
+msav	      Inicia Microsoft Antivirus.	DOS
+msbackup	  Inicia Microsoft Backup, por lo que reemplaza a los comandos backup y a restore.	DOS
+mscdex	    Carga el soporte de CD-ROM para MS-DOS.	98/95/DOS
+msd	        Inicia el programa Microsoft Diagnostics con el que se pueden visualizar los datos del sistema.	DOS
+msiexec	    Inicia el instalador de Windows, con el que se puede instalar y configurar el sistema.	10/8/7/Vista/XP
+muiunattend	Inicia un proceso de configuración automatizado para la interfaz de usuario multilingüe (Multilingual User Interface, MUI).	10/8/7/Vista
+netcfg	    Instala el sistema operativo minimizado Microsoft Windows PE.	10/8/7/Vista
+ocsetup	    Instala funciones de Windows adicionales.	8/7/Vista
+pentnt	    Reconoce los errores de división de punto flotante (floating point division errors) en chips Pentium, inicia la emulación de punto flotante (floating point emulation) y desactiva el hardware de punto flotante (floating point hardware).	XP
+pkgmgr	    Instala, desinstala y configura paquetes y funciones para Windows.	10/8/7/Vista
+pnpunattend	Automatiza la instalación de controladores de dispositivos.	10
+pnputil	    Instala dispositivos plug and play desde la terminal.	10/8/7/Vista
+power	      Usa el estado de reposo (idle) de un procesador para reducir el coste energético.	98/95/DOS
+powercfg	  Permite al usuario cambiar las opciones de energía del ordenador y controlar los planes de ahorro energético.	10/8/7/Vista/XP
+pwlauncher	Configura las opciones de arranque para Windows To Go, por lo que también es posible inicializar Windows desde una memoria USB.	10/8
+qprocess	  Proporciona información sobre los procesos en ejecución.	10/8/7/Vista
+query	      Muestra el estado de un servicio determinado.	10/8/7/Vista
+quser	      Proporciona información sobre los usuarios conectados.	10/8/7/Vista
+reagentc	  Configura el entorno de recuperación de Windows a través del que se puede reparar la instalación del sistema operativo.	10/8/7
+recimg	    Crea una imagen personalizada de Windows para restaurar el sistema.	8
+reg	        Gestiona el registro desde el símbolo del sistema. Así, los usuarios pueden crear (reg add) y eliminar (reg delete) nuevas claves.	10/8/7/Vista/XP
+regini	    Cambia los permisos para el registro.	10/8/7/Vista/XP
+register-cimprovider	Registra un proveedor de modelo de información común (Common Information Model Provider, CIM Provider) en Windows.	10/8
+regsvr32	  Inscribe un archivo DLL en el registro.	10/8/7/Vista/XP
+relog	      Crea nuevos protocolos de indicadores de rendimiento a partir de los datos de los protocolos ya existentes.	10/8/7/Vista/XP
+repair-bde	Repara y descifra unidades defectuosas cifradas con BitLocker. Los archivos deben almacenarse en una unidad de repuesto.	10/8/7
+reset	      Restablece una sesión. Alternativamente también puede utilizarse el comando rwinsta.	10/8/7/Vista/XP
+restore	    Restaura las copias de seguridad creadas por el comando backup, que ha sido reemplazado por msbackup.	DOS
+rwinsta	    El comando tiene la misma función que reset.	10/8/7/Vista/XP
+sc	        Gestiona servicios en los que el comando establece conexión con el Service Controller.	10/8/7/Vista/XP
+scanreg	    Repara el registro y permite crear una copia de seguridad de este.	98/95
+sdbinst	    Recurre a bases de datos (SBD) personalizadas.	10/8/7/Vista/XP
+secedit	    Analiza la configuración de seguridad comparando la configuración actual con plantillas. Este comando también permite configurar, importar y exportar ajustes.	10/8/7/Vista/XP
+setver	    Especifica un número de versión de MS-DOS que le será transferido a un programa, incluso cuando este no se corresponda con la versión real.	32 bits/DOS
+setx	      Crea o modifica variables de entorno en el entorno de usuario o del sistema.	10/8/7/Vista
+sfc	        Comprueba los archivos de sistema más importantes y protegidos. Las versiones incorrectas se sustituyen por las correctas.	10/8/7/Vista/XP
+smartdrv	  Inicia y gestiona el programa de caché de disco duro SMARTDrive.	98/95/DOS
+sys	        Copia archivos de sistema de MS-DOS y el intérprete de comandos en otra unidad, la cual se convertirá en una unidad de arranque.	98/95/DOS
+systeminfo	Muestra datos sobre la instalación de Windows, incluidos todos los paquetes de servicios instalados. Dichos datos pueden referirse tanto al sistema local como al ordenador remoto.	10/8/7/Vista/XP
+tpmvscmgr	  Crea y elimina tarjetas inteligentes virtuales (Virtual Smart Cards) TPM, que se cifran basándose en un módulo de plataforma de confianza (Trusted Platform Module).	10/8
+tracerpt	  Procesa logs o datos en tiempo real generados durante el seguimiento de programas informáticos.	10/8/7/Vista/XP
+typeperf	  Muestra datos sobre los indicadores de rendimiento o los escribe en un archivo.	10/8/7/Vista/XP
+unformat	  Deshace el formateo de una unidad mediante el comando format.	DOS
+unlock	    Desbloquea una unidad bloqueada con lock.	98/95
+unlodctr	  Elimina tanto los nombres como las explicaciones para los indicadores de rendimiento ampliables en el registro de Windows.	10/8/7/Vista/XP
+vaultcmd	  Crea, elimina y muestra datos de registro almacenados.	10/8/7
+vol	        Muestra el nombre y el número de serie de una unidad.	Cualquier Win/DOS
+vsafe	      Inicia el antivirus VSafe.	DOS
+vssadmin	  Gestiona los servicios de instantáneas de volumen con los que pueden almacenarse diferentes estados de versiones (snapshots) de las unidades.	10/8/7/Vista/XP
+wbadmin	    Crea backups del sistema operativo y ofrece información sobre las copias de seguridad creadas.	10/8/7/Vista
+wevtutil	  Gestiona registros de eventos y archivos de registro de eventos.	10/8/7/Vista
+whoami	    Proporciona información sobre el usuario actual. Con el parámetro /GROUP se obtiene información adicional sobre la pertenencia a un grupo.	10/8/7/Vista
+winmgmt	    Gestiona repositorios WMI, permitiendo así la creación de copias de seguridad (/backup).	Cualquier Win
+winsat	    Evalúa numerosos factores del sistema, por ejemplo, el rendimiento del procesador o las capacidades gráficas.	10/8/7/Vista
+wmic	      Inicia el instrumental de administración de Windows en la línea de comandos. Con ello pueden modificarse numerosos ajustes de Windows tanto a nivel local como en ordenadores remotos.	10/8/7/Vista/XP
+xwizard	    Registra datos de Windows en forma de archivos XML.	10/8/7

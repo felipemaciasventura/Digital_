@@ -1,0 +1,71 @@
+Comandos Basicos CMD Windows
+----------------------------
+
+bitsadmin	      Crea y monitorea las cargas y descargas.	10/8/7/Vista
+break	          Desactiva la comprobación Ctrl+C en MS-DOS con la que se podían detener procesos en el antiguo sistema operativo. Solo está disponible en Windows por razones de compatibilidad.	Cualquier Win/DOS
+call	          Llama a un archivo batch dentro de otro archivo batch. El comando no tiene ningún efecto si no se introduce en un archivo batch, sino directamente en CMD.	Cualquier Win/DOS
+cd	            Muestra el directorio actual y permite cambiar a otros directorios. Con el parámetro /D más la unidad y la ruta también puede cambiarse la unidad. Mediante cd puede cambiarse al directorio superior (tiene la misma función que chdir).	Cualquier Win/DOS
+chcp	          Cambia la página de código actual (tabla de códigos) o muestra el número de páginas de la página de código actual.	Cualquier Win/DOS
+chdir	          Muestra el directorio actual y permite cambiar a otros directorios. Con el parámetro /D más la unidad y la ruta también se puede cambiar la unidad. Mediante chdir puede cambiarse al directorio superior (tiene la misma función que cd).	Cualquier Win/DOS
+choice	        Crea una lista de selección: el ejemplo típico es la selección de Sí (S) o No (N) representada como /C SN. Con el parámetro /M puede añadirse un mensaje explicativo para el usuario.	Cualquier Win (excepto XP)/DOS
+clip	          Envía el resultado de un comando al portapapeles. Así se puede, por ejemplo, copiar la estructura de los directorios (dir clip) o el contenido de un archivo (clip < nombre de archivo) en el portapapeles.	10/8/7/Vista
+cls	            Elimina el contenido de la pantalla.	Cualquier Win/DOS
+cmd	            Inicia CMD.EXE.	10/8/7/Vista/XP
+color	          Modifica el color del fondo (primer valor) y del texto (segundo valor) de la línea de comandos. Los colores están comprendidos entre 0 (negro) y F (blanco).	10/8/7/Vista/XP
+command	        Inicia CMD.COM.	32 bits/DOS
+date	          Muestra la fecha actual y permite modificarla. Con el parámetro /T solo se muestra la fecha sin opción de modificarla.	Cualquier Win/DOS
+debug	          Inicia Debug, un programa con el que se pueden probar y modificar programas en la terminal.	32 bits/DOS
+dir	            Muestra todas las carpetas y archivos dentro del directorio actual. Puede restringirse la salida mediante atributos (/A), simplificar la lista (/B), o mostrar todos los subdirectorios y sus archivos (/S).	Cualquier Win/DOS
+doskey	        Crea macros, recupera comandos y procesa la entrada de comandos.	Cualquier Win/DOS
+dosshell	      Abre DOS Shell, una herramienta gráfica para la gestión de archivos que en Windows fue reemplazada por Windows Explorer.	95/DOS
+echo	          Muestra un mensaje y es utilizado, sobre todo, en scripts y archivos batch.	Cualquier Win/DOS
+edit	          Inicia el editor de MS-DOS, que permite crear archivos de texto.	32 bits /DOS
+edlin	          Crea y edita archivos de texto en la terminal.	32 bits /DOS
+exit	          Pone fin a CMD.EXE o CMD.COM.	Cualquier Win/DOS
+fasthelp	      Muestra información útil sobre los comandos.	DOS
+fastopen	      Escribe la posición de un programa en una lista específica situada en la memoria y que debe acelerar el inicio del programa.	32 bits/DOS
+find	          Busca una cadena de caracteres específica en uno o varios archivos. Para saber la asiduidad con la que aparece la palabra o frase se utiliza el parámetro /C. Al añadir /I, el comando ignora las mayúsculas y las minúsculas en la búsqueda.	Cualquier Win/DOS
+findstr	        Encuentra cadenas de caracteres en uno o varios archivos. En comparación con el comando find, este plantea más opciones: se pueden buscar archivos que contengan diferentes términos o buscar una secuencia de palabras exacta usando /C.	10/8/7/Vista/XP
+forcedos	      Inicia un programa en el subsistema de MS-DOS en caso de que no fuera reconocido por Windows XP como un programa DOS.	XP (32 bits)
+graftabl	      Activa la posibilidad de utilizar los caracteres adicionales de una determinada página de código en el modo gráfico.	32 bits/DOS
+graphics	      Inicia un programa con el que pueden imprimirse gráficos.	32 bits/DOS
+help	          Muestra un texto de ayuda para un comando específico. También puede utilizarse el comando /?.	Cualquier Win/DOS
+kb16	          Modifica la configuración de país del teclado para programas de DOS. Por motivos de compatibilidad solo está incluido en Windows. Reemplaza al antiguo comando keyb.	32 bits
+keyb	          Modifica la configuración de país del teclado para programas de DOS. Por motivos de compatibilidad solo está incluido en Windows. En las nuevas versiones de Windows ha sido reemplazado por kb16.	98/95/DOS
+logoff	        Cierra la sesión del usuario en Windows y también permite terminar sesiones en los servidores.	10/8/7/Vista/XP
+lpq	            Muestra el estado de una cola de impresión para los ordenadores que utilizan un Line Printer Daemon (LPD). Para poder usar el comando en Windows 10, 8, 7 o Vista debe activarse el servicio LPD Print y el monitor del puerto LPR.	Cualquier Win
+lpr	            Envía un archivo a un ordenador que utiliza el Line Printer Daemon (LPD). Para poder usar el comando en Windows 10, 8, 7 o Vista, debe activarse el servicio LPD Print y el monitor del puerto LPR.	Cualquier Win
+md	            Crea un nuevo directorio en la ruta especificada. Si los directorios ya no existen en la ruta, md los genera automáticamente. Opcionalmente también puede utilizarse el comando mkdir.	Cualquier Win/DOS
+mkdir	          Crea un nuevo directorio en la ruta especificada. Si los directorios ya no existen en la ruta, emkdir los genera automáticamente. Alternativamente también puede utilizarse el comando md.	Cualquier Win/DOS
+more	          Muestra el contenido de un archivo (por ejemplo, de un archivo de texto) por páginas, pero también puede dividir la salida de otro comando en páginas.	Cualquier Win/DOS
+msg	            Envía un mensaje a otro usuario. Pueden escribirse los nombres de usuario en el comando o crear archivos para guardar dichos nombres. Los archivos pueden integrarse en el comando mediante @nombredearchivo.	10/8/7/Vista/XP
+nlsfunc	        Proporciona información específica de cada país para la asistencia lingüística.	32 bits/DOS
+ntbackup	      Realiza servicios de backup directamente desde la línea de comandos o como parte de archivos o scripts batch.	XP
+path	          Especifica la ruta para buscar archivos ejecutables y los muestra.	Cualquier Win/DOS
+pause	          Detiene la ejecución en archivos y scripts batch. Mediante un mensaje se le pedirá al usuario que pulse una tecla para continuar.	Cualquier Win/DOS
+popd	          Cambia a la carpeta guardada por el comando pushd. El comando es, ante todo, parte de archivos y scripts batch.	10/8/7/Vista
+print	          Imprime un archivo de texto. Debe especificarse el dispositivo con el que se desea imprimir.	Cualquier Win/DOS
+prompt	        Cambia la visualización del símbolo del sistema.	Cualquier Win/DOS
+pushd	          Almacena una ruta específica en un script o en un archivo batch. Con popd puede cambiarse a dicho directorio.	10/8/7/Vista/XP
+qbasic	        Inicia Qbasic, un entorno de programación basado en el lenguaje de programación BASIC.	98/95/DOS
+rd	            Elimina un directorio, el cual no puede contener ni ocultar archivos. Con el parámetro /S pueden eliminarse árboles de directorios completos. Alternativamente también puede utilizarse el comando rmdir.	Cualquier Win/DOS
+rem	            Escribe comentarios en archivos y scripts batch que no se tienen en cuenta en la ejecución.	Cualquier Win/DOS
+rmdir	          Elimina un directorio que no puede ni incluir ni ocultar ningún archivo. Con el parámetro /S pueden eliminarse árboles de directorios completos. Alternativamente también puede utilizarse el comando rd.	Cualquier Win/DOS
+runas	          Permite a un usuario ejecutar comandos con los derechos de otro usuario. Así, desde una cuenta de usuario normal se puede, por ejemplo, ejecutar comandos como administrador siempre que se conozca la contraseña.	10/8/7/Vista/XP
+scandisk	      Inicia Microsoft ScanDisk. El programa analiza soportes de datos en busca de errores.	98/95/DOS
+schtasks	      Determina la ejecución de determinados programas y comandos en un momento específico. Con él puedes crear tareas, pero también eliminarlas o modificarlas y visualizar todas las tareas planificadas.	10/8/7/Vista/XP
+set	            Muestra las variables de entorno para CMD.EXE y permite configurarlas.	Cualquier Win/DOS
+shift	          Cambia la posición de las variables en archivos batch y en scripts.	Cualquier Win/DOS
+shutdown	      Apaga el ordenador (/s), lo reinicia (/r) o cierra la sesión del usuario (/l). Se muestra una interfaz de usuario gráfica al introducir el parámetro /i como primera opción en el comando.	10/8/7/Vista/XP
+sort	          Lee datos (de un archivo o de un comando) y los muestra de forma ordenada en la línea de comandos, en un archivo nuevo o en otra salida.	Cualquier Win/DOS
+start	          Abre una nueva ventana de la terminal en la que puede ejecutarse un programa específico o un comando.	Cualquier Win
+subst	          Le asigna una letra de unidad a una ruta y crea, así, una unidad virtual.	Cualquier Win/DOS
+taskkill	      Termina una o varias tareas en ejecución, para lo que se tiene que facilitar el ID del proceso (PID) o el nombre de la imagen.	10/8/7/Vista
+tasklist	      Enumera todos los procesos en ejecución (también en los ordenadores remotos si se desea). Para ello debe facilitarse el ID del proceso necesario, por ejemplo, para el comando taskkill.	10/8/7/Vista/XP
+time	          Muestra la hora actual y permite modificarla. Si se introduce /T como parámetro, la línea de comandos solo muestra la hora y no permite modificarla de forma directa.	Cualquier Win/DOS
+timeout	        Detiene un proceso durante un período de tiempo determinado. El comando se utiliza en archivos batch y en scripts. Si se recurre al parámetro /NOBREAK, el comando ignora cualquier entrada de teclado.	10/8/7/Vista
+title	          Modifica el título de la terminal. Los espacios están permitidos, pero no así todos los caracteres especiales: por ejemplo, la barra oblicua se interpreta como la introducción a un parámetro.	Cualquier Win/DOS
+tree	          Muestra gráficamente la estructura de directorios de una unidad o ruta. Con el parámetro /F se listan todos los archivos en las carpetas. /A se encarga de que solo se utilicen códigos ASCII en la representación gráfica. El comando tiene en cuenta todos los subdirectorios a partir de la ruta especificada. Si no se ofrece una ruta, la carpeta actual será utilizada como salida.	Cualquier Win/DOS
+type	          Muestra el contenido de un archivo de texto.	Cualquier Win/DOS
+tzutil	        Muestra la zona horaria actual (/g) o la modifica (/s). El parámetro /l sirve de ayuda para especificar los husos horarios válidos.	10/8/7
+ver	            Muestra la versión actual de Windows o de MS-DOS.	Cualquier Win/DOS

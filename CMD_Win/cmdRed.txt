@@ -1,0 +1,72 @@
+Comandos cmd Utiles para Redes
+------------------------------
+
+Comando CMD	Descripción	Versión de Windows
+arp	      Muestra y modifica las entradas incluidas en la caché del protocolo de resolución de direcciones (Address Resolution Procol, ARP).	Cualquier Win
+atmadm	  Muestra datos sobre el modo de transferencia asíncrona (Asynchronous Transfer Mode, ATM).	XP
+certreq	  Gestiona y establece condiciones para el registro de certificados en organismos de certificación.	10/8/7/Vista
+certutil	Gestiona servicios de autenticación de certificados.	10/8/7/Vista
+change	  Modifica la configuración de un servidor de terminales y se utiliza junto a los parámetros logon, port o user. Reemplaza a los comandos chglogon, chgport y chgusr.	10/8/7/Vista
+checknetisolation	Prueba las apps de la Windows Store en la capacidad de tu red.	10/8
+chglogon	Activa, desactiva o elimina los logins en las sesiones del servidor de terminales.	10/8/7/Vista
+chgport	  Muestra o modifica la asignación de puertos COM en servidores de terminales para que sean compatibles con DOS.	10/8/7/Vista
+chgusr	  Cambia el modo de instalación en un servidor de terminales.	10/8/7/Vista
+cmstp	    Instala o desinstala perfiles para el gestor de la conexión.	10/8/7/Vista/XP
+djoin	    Crea una nueva cuenta de equipo en los servicios de dominio de Active Directory (Active Directory Domain Services, AD DS).	10/8/7/Vista
+finger	  Proporciona información sobre los usuarios en dispositivos remotos que utilizan el servicio finger.	10/8/7/Vista/XP
+ftp	      Transfiere datos a un servidor FTP o de este a un ordenador. El comando también ofrece opciones adicionales, de modo que así puede activarse la depuración de programas o debugging con -d.	Cualquier Win/DOS
+getmac	  Muestra la dirección MAC de todos los adaptadores de red. El formato de salida (table, list, CSV) se especifica con /FO. Con /S también puede utilizarse el comando en sistemas remotos.	10/8/7/Vista/XP
+gpresult	Muestra información sobre las directivas de grupo.	10/8/7/Vista/XP
+gpupdate	Actualiza la información sobre las directivas de grupo.	10/8/7/Vista/XP
+hostname	Ofrece el nombre del host actual.	10/8/7/Vista/XP
+interlnk	Conecta dos ordenadores por medio de conexión paralela o en serie para compartir archivos o impresoras.	DOS
+intersvr	Inicia un servidor Interlnk y transfiere datos de un ordenador a otro mediante una conexión paralela o en serie.	DOS
+ipconfig	Facilita información sobre la IP de cualquier adaptador de red utilizado. Con este comando también pueden liberarse direcciones (/release) o renovarse (/renew). /flushdns permite vaciar la caché DNS.	Cualquier Win/DOS
+ipxroute	Modifica y muestra información sobre tablas de enrutamiento IPX.	XP
+irftp	    Transfiere archivos a través de una conexión por infrarrojos si hubiera una disponible.	10/8/7/Vista
+iscsicli	Gestiona iSCSI, que permite conexiones con el protocolo SCSI.	10/8/7/Vista
+klist	    Muestra todos los tickets con los que es posible autenticarse en el servicio Kerberos y también permite eliminarlos (purge).	10/8/7
+ksetup	  Configura una conexión al servidor Kerberos.	10/8/7
+mount	    Permite compartir redes en el sistema de archivos de red (Network File System). Para utilizar el comando deben activarse los servicios NFS.	7/Vista
+mrinfo	  Ofrece información sobre el router.	10/8/7/Vista/XP
+nbtstat	  Muestra estadísticas y datos sobre conexiones TCP/IP en ordenadores remotos.	10
+net	      Configura y muestra ajustes de red.	Cualquier Win
+net1	    Configura y muestra ajustes de red. En su lugar, se recomienda utilizar net, pues el comando net1 solo fue concebido como solución temporal para problemas Y2K.	10/8/7/Vista/XP
+netsh	    Inicia el shell de red con el que pueden realizarse ajustes de red para ordenadores locales y remotos.	10/8/7/Vista/XP
+netstat	  Muestra estadísticas y datos sobre conexiones TCP/IP en el ordenador local.	Cualquier Win
+nfsadmin	Gestiona servidores y clientes NFS (para poder utilizar el comando deben activarse primero los servicios de NFS en Windows).	7/Vista
+nltest	  Muestra información sobre canales seguros en los servicios de dominio de Active Directory (Active Directory Domain Services, AD DS) y comprueba las conexiones.	10/8/7
+nslookup	Envía una solicitud DNS sobre una IP o un nombre de host al servidor DNS predeterminado. Alternativamente puede indicarse un servidor DNS diferente.	10
+ntsd	    Lleva a cabo la depuración (debugging).	XP
+pathping	Proporciona información sobre la redirección y pérdida de paquetes durante el envío a través de una red y también especifica la latencia.	10/8/7/Vista/XP
+ping	    Envía una solicitud de eco mediante el protocolo de mensajes de control de Internet (Internet Control Message Protocol, ICMP) a un host específico para comprobar que está disponible y ofrece, además, la duración del eco. Con -t pueden enviarse señales ping de forma ininterrumpida. Para poder visualizar una estadística sobre esta acción presiona las teclas Ctrl + Pausa/Inter. Puedes cancelar el proceso con Ctrl+C.	Cualquier Win
+qappsrv	  Muestra todos los ordenadores remotos de la red.	10/8/7/Vista/XP
+qwinsta	  Proporciona información sobre las sesiones de escritorio remoto abiertas.	10/8/7/Vista
+rasautou	Gestiona direcciones AutoDialer.	10/8/7/Vista/XP
+rasdial	  Inicia y finaliza conexiones de red para clientes de Microsoft.	10/8/7/Vista/XP
+rcp	      Copia archivos de un ordenador Windows en un servidor en el que se está ejecutando un demonio RSDH y viceversa.	7/Vista/XP
+rdpsign	  Firma un archivo de protocolo de escritorio remoto (Remote Desktop Protocol, RDP).	10/7
+rexec	    Ejecuta comandos en un ordenador remoto en el que se está ejecutando un demonio rexec.	Vista/XP
+route	    Muestra la tabla de enrutamiento y permite modificar (change), añadir (add) o eliminar (delete) entradas.	Cualquier Win
+rpcinfo	  Envía una llamada a procedimiento remoto (Remote Procedure Call, RPC) a un servidor RPC. El resultado muestra los programas en el ordenador remoto (para poder utilizar el comando deben activarse los servicios de NFS en Windows).	7/Vista
+rpcping	  Envía un ping vía llamada a procedimiento remoto (Remote Procedure Call, RPC) a un servidor y comprueba si es posible establecer así una conexión.	10/8/7/Vista
+rsh	      Ejecuta comandos en ordenadores remotos en los que está funcionando el programa de Unix Remote Shell (RSH).	7/Vista/XP
+setspn	  Crea, elimina y modifica SPN, que hace referencia a identificadores únicos para los servicios de una red que utiliza la autenticación de Kerberos.	10/8/7
+shadow	  Supervisa la sesión en un ordenador remoto y con él el usuario puede controlar activamente dicho ordenador remoto.	7/Vista/XP
+showmount	Proporciona información sobre sistemas de archivos NFS. Para utilizar el comando, deben activarse previamente los servicios NFS en Windows.	7/Vista
+tcmsetup	Activa o desactiva un cliente para la Telephony Application Programming Interface (TAPI), una interfaz de programación para aplicaciones de telefonía.	10/8/7/Vista/XP
+telnet	  Permite la comunicación con otro ordenador que también utilice el protocolo Telnet.	Cualquier Win/DOS
+tftp	    Permite el intercambio de datos entre el ordenador local y un servidor que soporte el Trivial File Transfer Protocol (TFTP). Para poder utilizar el comando debe estar activado el cliente TFTP en las opciones del sistema.	10/8/7/Vista/XP
+tlntadmn	Gestiona un servidor Telnet en un ordenador local o remoto. Para utilizar el comando deben activarse las funciones del servidor Telnet en las opciones del sistema.	8/7/Vista/XP
+tracert	  Hace el seguimiento de un paquete de datos a través de la red hasta que llega a un servidor. No solo se comprueba si el paquete llega y el tiempo que necesita para ello, sino que también se registran los saltos que este hace por el camino. Todos los paquetes tienen un determinado tiempo de vida (Time To Live, TTL) que aumenta paso a paso a raíz del comando.	Cualquier Win
+tscon	    Conecta la sesión actual del usuario local con una sesión en un ordenador remoto.	10/8/7/Vista/XP
+tsdiscon	Finaliza la conexión entre una sesión de usuario local y la de un ordenador remoto.	10/8/7/VistaXP
+tskill	  Termina un proceso en un ordenador remoto.	10/8/7/Vista/XP
+tsshutdn	Apaga o reinicia un servidor de terminales remoto. Si el ordenador correspondiente lo permite, este puede apagarse completamente de esta manera.	XP
+umount	  Elimina unidades de sistema de archivos de red (NFS) integradas. Para utilizar el comando deben activarse las funciones NFS en el panel de control del sistema.	7/Vista
+w32tm	    Gestiona el servicio de hora de Windows con el que se sincronizan la fecha y la hora en todos los ordenadores bajo un dominio AD DS.	10/8/7/Vista/XP
+waitfor	  Envía o espera a una señal. Si esta no se ha de enviar a todos los ordenadores de un dominio, sino a uno específico, se utiliza el parámetro /S. Este comando permite sincronizar los ordenadores de una misma red entre sí.	10/8/7/Vista
+wecutil	  Crea y administra suscripciones para eventos, los cuales son reenviados por fuentes de eventos remotas que soportan el protocolo de gestión WS.	10/8/7/Vista
+winrm	    Administra conexiones seguras entre ordenadores locales y remotos a través del protocolo de gestión WS.	10/8/7/Vista
+winrs	    A través de una conexión segura permite acceder a las líneas de comandos de un ordenador remoto y realizar cambios. Para desactivar el cifrado debe recurrirse a –un.	10/8/7/Vista
+wsmanhttpconfig	Gestiona las funciones del Windows Remote Management (winrm).	10/8/7/Vista

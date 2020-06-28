@@ -1,0 +1,48 @@
+Manejo de archivos a traves de CMD
+----------------------------------
+
+Comando   CMD	Descripción	Versión de Windows
+append	  Determina la ruta en la que se tienen que buscar archivos.	32 bits/DOS
+assoc	    Modifica el programa vinculado a una extensión de archivo determinada.	10/8/7/Vista/XP
+attrib	  Cambia los atributos de determinados archivos. Con el parámetro +R puede protegerse un archivo, por ejemplo, de posibles cambios.	Cualquier Win/DOS
+cipher	  Muestra y modifica el estado del cifrado de los archivos y directorios en particiones NTFS.	10/8/7/Vista/XP
+comp	    Compara los contenidos de dos archivos o de dos conjuntos de archivos. El resultado puede representarse como valor decimal (/D) o como carácter ASCII (/A).	10/8/7/Vista/XP
+compact	  Muestra y modifica el estado de compresión de los archivos y directorios en particiones NTFS.	10/8/7/Vista/XP
+copy	    Copia uno o varios archivos en otro lugar. Además, también es posible unir varios archivos en uno. Como wildcard puede utilizarse el asterisco.	Cualquier Win/DOS
+cscript	  Ejecuta scripts a través del Microsoft Script Host. Con la opción /D se activa la depuración de programas (debugging).	Cualquier Win/DOS
+del	      Elimina uno o varios archivos. Para eliminar todos los archivos de las subcarpetas puede utilizarse el parámetro /S. Los archivos de solo lectura se eliminan con /F. Como alternativa también puede utilizarse el comando erase.	Cualquier Win/DOS
+deltree	  Elimina un directorio y todos los subdirectorios y archivos incluidos en él.	98/95/DOS
+diantz	  Comprime archivos sin pérdidas en formato CAB. El comando tiene la misma función que makecab.	7/Vista/XP
+diskcomp	Compara el contenido de dos disquetes.	Cualquier Win (excepto 10)/DOS
+diskcopy	Copia el contenido de un disquete en otro.	Cualquier Win (excepto 10)/DOS
+endlocal	Finaliza el período de validez de los cambios en archivos batch o en scripts. Tras utilizar el comando, los cambios se aplican a todo el sistema y la localización se inicia con setlocal.	10/8/7/Vista/XP
+erase	    Tiene la misma función que del.	Cualquier Win/DOS
+exe2bin	  Convierte un archivo EXE en uno BIN.	32 bits
+expand	  Extrae archivos y carpetas incluidos en archivos CAB.	Cualquier Win (excepto XP de 64 bits)/DOS
+extrac32	Extrae archivos y carpetas comprendidos en archivos CAB. El programa forma parte de Internet Explorer, pero también puede emplearse en la línea de comandos.	Cualquier Win
+extract	  Extrae archivos y carpetas incluidos en archivos CAB. Las nuevas versiones de Windows utilizan expand.	98/95
+fc	      Compara dos archivos individuales o dos conjuntos de archivos entre sí y muestra sus diferencias.	Cualquier Win/DOS
+for	      Especifica que se debe ejecutar un comando determinado para cada archivo de un conjunto de archivos. El comando se utiliza, sobre todo, en archivos batch y de script.	Cualquier Win/DOS
+forfiles	Escoge uno o varios archivos y ejecuta un comando relacionado con dichos archivos. Se utiliza, sobre todo, para archivos batch y de script.	10/8/7/Vista
+ftype	    Determina un programa con el que debe abrirse un tipo de archivo específico.	10/8/7/Vista/XP
+goto	    Hace que la ejecución de un programa batch salte a una línea (marca) específica.	Cualquier Win/DOS
+if	      Representa una sentencia condicional y como tal, ejecuta expresiones en archivos batch solo bajo ciertas condiciones. Puede ampliarse por medio de not en caso de que los comandos no puedan ejecutarse bajo ciertas condiciones.	Cualquier Win/DOS
+makecab	  Comprime archivos sin pérdidas en formato CAB. Alternativamente también puede utilizarse el comando diantz.	10/8/7/Vista/XP
+mklink	  Crea un enlace simbólico a un archivo. Con /D también pueden crearse enlaces con directorios. /H permite crear un enlace fijo en lugar de uno simbólico.	10/8/7/Vista
+move	    Desplaza uno o varios archivos de un directorio a otro y también puede modificar el nombre de los directorios. Por defecto, el comando sobrescribe otros archivos con el mismo nombre al mover archivos a su destino. Para evitarlo se utiliza el parámetro /-Y.	Cualquier Win/DOS
+openfiles	Muestra y separa los archivos y las carpetas abiertos de un sistema.	10/8/7/Vista/XP
+recover	  Restablece los archivos legibles que se encuentran en un soporte de datos.	10/8/7/Vista/XP
+ren	      Modifica el nombre de un archivo específico, pero el directorio y la unidad no pueden modificarse. También puede utilizarse el comando rename.	Cualquier Win/DOS
+rename	  Tiene la misma función que ren.	Cualquier Win/DOS
+replace	  Reemplaza el archivo o los archivos seleccionados por uno o varios archivos. Con el parámetro /S también se sustituyen los archivos de las subcarpetas y con /U solo se reemplazan archivos si la otra versión es más actual. El parámetro /A permite que los usuarios inserten nuevos archivos simultáneamente en el directorio de destino. Este parámetro no es compatible con /S y /U.	Cualquier Win/DOS
+robocopy	Posibilita la llamada copia de archivos robusta. Se trata de una versión ampliada de copy y xcopy, de modo que con robocopy pueden transferirse datos con éxito incluso cuando hay interrupciones en la red. En total existen 72 parámetros con los que puede personalizarse el comando de copia.	10/8/7/Vista
+rsm	      Gestiona los medios en dispositivos extraíbles. Se utiliza en archivos batch y en scripts para dar soporte a programas que no utilizan la Removable Storage API.	Vista/XP
+setlocal	Limita el ámbito de validez de los cambios en archivos batch o en scripts. Con el comando, los cambios solo se aplican a estos archivos. La localización se inicia con endlocal.	10/8/7/Vista/XP
+share	    Instala file sharing y file locking.	32 bits/DOS
+sxstrace	Inicia la WinSxs Tracing Utility, una herramienta de diagnósticos de programación.	10/8/7/Vista
+takeown	  Recupera los derechos de acceso de los administradores a un archivo y que se han perdido al reasignar a un usuario.	10/8/7/Vista
+undelete	Deshace la eliminación de un archivo.	DOS
+verify	  Al activarse comprueba que los archivos se hayan escrito correctamente en un soporte de datos. Este ajuste está desactivado por defecto en la configuración.	Cualquier Win/DOS
+where	    Encuentra archivos que se corresponden con un esquema de búsqueda específico dentro del que pueden emplearse los símbolos * y ?.	10/8/7/Vista
+xcopy	    Copia archivos y estructuras de directorio completas, para lo que el comando ofrece numerosas opciones adicionales. Así puede especificarse, por ejemplo, que solo se copien archivos anteriores a una fecha determinada (/D) y, asimismo, que también se sobrescriban archivos protegidos contra escritura (/R).	Cualquier Win/DOS
+
